@@ -51,6 +51,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="IkI-bj-bNz" kind="show" id="dsU-Sd-uze"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -72,10 +75,35 @@
             </objects>
             <point key="canvasLocation" x="780.91603053435108" y="284.50704225352115"/>
         </scene>
-        <!--View Controller-->
+        <!--Seventh View Controller-->
+        <scene sceneID="CpY-u4-3sf">
+            <objects>
+                <viewController id="IkI-bj-bNz" customClass="seventhViewController" customModule="CandyReviweAppVer2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Hnp-c7-Hgu">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d9B-Ea-Pvk">
+                                <rect key="frame" x="76" y="239" width="240" height="185"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="mTA-Ua-UOO"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="5Vq-0k-VFk"/>
+                    <connections>
+                        <outlet property="imageView" destination="d9B-Ea-Pvk" id="TcK-F3-W5g"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NuN-xS-EIO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1638.9312977099237" y="284.50704225352115"/>
+        </scene>
+        <!--Fourth View Controller-->
         <scene sceneID="nii-uD-YsQ">
             <objects>
-                <viewController id="xQo-Nw-fKY" sceneMemberID="viewController">
+                <viewController id="xQo-Nw-fKY" customClass="fourthViewController" customModule="CandyReviweAppVer2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fie-ua-ob5">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -93,7 +121,7 @@
             <objects>
                 <viewController id="HOX-Nk-jiw" customClass="thirdViewController" customModule="CandyReviweAppVer2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JCV-Zu-cfz">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vnH-5v-mgH">
@@ -120,6 +148,7 @@
                         <viewLayoutGuide key="safeArea" id="i2c-Lc-VLX"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="GJr-rX-BfY"/>
                     <connections>
                         <outlet property="imageTwo" destination="Wff-An-UEx" id="DKU-KZ-fDW"/>
                         <outlet property="labelTwo" destination="vnH-5v-mgH" id="Dg8-Bw-ekK"/>
@@ -128,7 +157,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OQQ-KI-7jJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="765.64885496183206" y="-1102.1126760563382"/>
+            <point key="canvasLocation" x="1640" y="-425"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="y9j-Ma-Xcb">
@@ -159,7 +188,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                 <connections>
-                                    <segue destination="HOX-Nk-jiw" kind="presentation" id="TiC-XS-Oo1"/>
+                                    <segue destination="HOX-Nk-jiw" kind="show" id="ntC-0X-QhX"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -237,11 +266,11 @@
             </objects>
             <point key="canvasLocation" x="-127" y="285"/>
         </scene>
-        <!--Item-->
+        <!--Hard Candy-->
         <scene sceneID="Oqg-3C-wrp">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="sV2-AJ-y5U" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="Mhg-y5-ymb"/>
+                    <tabBarItem key="tabBarItem" title="Hard Candy" image="heart.fill" catalog="system" id="Mhg-y5-ymb"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="0Vf-pP-FFm">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
@@ -256,10 +285,10 @@
             </objects>
             <point key="canvasLocation" x="-127" y="993"/>
         </scene>
-        <!--View Controller-->
+        <!--Fifth View Controller-->
         <scene sceneID="Vy3-Qo-Ou7">
             <objects>
-                <viewController id="S9C-8P-LeB" sceneMemberID="viewController">
+                <viewController id="S9C-8P-LeB" customClass="fifthViewController" customModule="CandyReviweAppVer2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rz2-ma-bvZ">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -272,11 +301,11 @@
             </objects>
             <point key="canvasLocation" x="806.87022900763361" y="1686.6197183098593"/>
         </scene>
-        <!--Item-->
+        <!--Gummies-->
         <scene sceneID="gEP-2O-pPL">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="57p-92-roS" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="VaT-9l-u88"/>
+                    <tabBarItem key="tabBarItem" title="Gummies" image="heart.fill" catalog="system" id="VaT-9l-u88"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="n5V-1L-CMc">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
