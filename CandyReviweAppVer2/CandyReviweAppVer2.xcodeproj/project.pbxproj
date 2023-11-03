@@ -11,6 +11,8 @@
 		2317597A2AF45D4300ADB172 /* fifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231759792AF45D4300ADB172 /* fifthViewController.swift */; };
 		2317597C2AF45E7800ADB172 /* seventhViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2317597B2AF45E7800ADB172 /* seventhViewController.swift */; };
 		2317597E2AF45EC000ADB172 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2317597D2AF45EC000ADB172 /* Property List.plist */; };
+		231759802AF490F800ADB172 /* eighthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2317597F2AF490F800ADB172 /* eighthViewController.swift */; };
+		231759822AF4936000ADB172 /* ninthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231759812AF4936000ADB172 /* ninthViewController.swift */; };
 		23EEB2972AF2FE7C0074875F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EEB2962AF2FE7C0074875F /* AppDelegate.swift */; };
 		23EEB2992AF2FE7C0074875F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EEB2982AF2FE7C0074875F /* SceneDelegate.swift */; };
 		23EEB29B2AF2FE7C0074875F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EEB29A2AF2FE7C0074875F /* ViewController.swift */; };
@@ -47,6 +49,8 @@
 		231759792AF45D4300ADB172 /* fifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fifthViewController.swift; sourceTree = "<group>"; };
 		2317597B2AF45E7800ADB172 /* seventhViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = seventhViewController.swift; sourceTree = "<group>"; };
 		2317597D2AF45EC000ADB172 /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
+		2317597F2AF490F800ADB172 /* eighthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eighthViewController.swift; sourceTree = "<group>"; };
+		231759812AF4936000ADB172 /* ninthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ninthViewController.swift; sourceTree = "<group>"; };
 		23EEB2932AF2FE7C0074875F /* CandyReviweAppVer2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CandyReviweAppVer2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23EEB2962AF2FE7C0074875F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23EEB2982AF2FE7C0074875F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -117,8 +121,10 @@
 				23EEB2982AF2FE7C0074875F /* SceneDelegate.swift */,
 				23EEB29A2AF2FE7C0074875F /* ViewController.swift */,
 				231759772AF45D3900ADB172 /* fourthViewController.swift */,
+				2317597F2AF490F800ADB172 /* eighthViewController.swift */,
 				231759792AF45D4300ADB172 /* fifthViewController.swift */,
 				23EEB29C2AF2FE7C0074875F /* Main.storyboard */,
+				231759812AF4936000ADB172 /* ninthViewController.swift */,
 				2317597D2AF45EC000ADB172 /* Property List.plist */,
 				2317597B2AF45E7800ADB172 /* seventhViewController.swift */,
 				23EEB2CA2AF304E60074875F /* sixthViewController.swift */,
@@ -281,10 +287,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				23EEB2C72AF2FEE60074875F /* secondViewController.swift in Sources */,
+				231759802AF490F800ADB172 /* eighthViewController.swift in Sources */,
 				23EEB29B2AF2FE7C0074875F /* ViewController.swift in Sources */,
 				231759782AF45D3900ADB172 /* fourthViewController.swift in Sources */,
 				23EEB2C92AF2FF160074875F /* thirdViewController.swift in Sources */,
 				2317597A2AF45D4300ADB172 /* fifthViewController.swift in Sources */,
+				231759822AF4936000ADB172 /* ninthViewController.swift in Sources */,
 				23EEB2CB2AF304E60074875F /* sixthViewController.swift in Sources */,
 				23EEB2972AF2FE7C0074875F /* AppDelegate.swift in Sources */,
 				2317597C2AF45E7800ADB172 /* seventhViewController.swift in Sources */,
