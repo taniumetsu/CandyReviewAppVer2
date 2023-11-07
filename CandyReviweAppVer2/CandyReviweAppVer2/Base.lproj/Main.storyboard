@@ -52,7 +52,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="IkI-bj-bNz" kind="show" id="dsU-Sd-uze"/>
+                                            <segue destination="IkI-bj-bNz" kind="show" identifier="mySegue" id="dsU-Sd-uze"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -137,7 +137,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="VPE-bX-93R" kind="show" id="Xgx-du-c6N"/>
+                                            <segue destination="VPE-bX-93R" kind="show" identifier="mySegue" id="Xgx-du-c6N"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -390,10 +390,14 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="QOb-IR-tZl" kind="show" id="r2u-he-7kX"/>
+                                            <segue destination="QOb-IR-tZl" kind="show" identifier="mySegue" id="r2u-he-7kX"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="S9C-8P-LeB" id="1A7-dQ-B1D"/>
+                                    <outlet property="delegate" destination="S9C-8P-LeB" id="bfh-22-ZdB"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ZKr-7v-G64"/>
@@ -401,7 +405,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="cZR-3o-sqd"/>
                     <connections>
-                        <outlet property="tableView" destination="ATm-b9-hGo" id="YGA-vQ-y1A"/>
+                        <outlet property="tableView" destination="ATm-b9-hGo" id="TZl-G8-ZK6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RYE-8r-mAn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

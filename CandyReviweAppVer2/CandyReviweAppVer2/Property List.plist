@@ -4,24 +4,24 @@
 <dict>
 	<key>CategoryThreeImages</key>
 	<array>
-		<string>Twizzlers</string>
+		<string>SourPatchKids</string>
 		<string>Haribo</string>
 		<string>AirHeads</string>
-		<string>SourPatchKids</string>
+		<string>Twizzlers</string>
 	</array>
 	<key>CategoryTwoImages</key>
 	<array>
+		<string>Strawberry</string>
 		<string>WarHeads</string>
 		<string>Lolipops</string>
-		<string>Strawberry</string>
 		<string>JollyRanchers</string>
 	</array>
 	<key>CategoryOneImages</key>
 	<array>
-		<string>CrunchBar</string>
-		<string>Twix</string>
 		<string>hersheys</string>
 		<string>KitKat</string>
+		<string>Twix</string>
+		<string>CrunchBar</string>
 	</array>
 </dict>
 </plist>
